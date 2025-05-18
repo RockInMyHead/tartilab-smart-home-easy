@@ -17,7 +17,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-400 mb-4 max-w-md">
-              Creating smarter, more comfortable living spaces with innovative technology solutions designed for everyday life.
+              Создаем более умные и комфортные жилые пространства с помощью инновационных технологических решений для повседневной жизни.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
@@ -39,22 +39,22 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">Быстрые Ссылки</h3>
             <ul className="space-y-2">
-              <li><a href="#features" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
-              <li><a href="#products" className="text-gray-400 hover:text-white transition-colors">Products</a></li>
-              <li><a href="#testimonials" className="text-gray-400 hover:text-white transition-colors">Reviews</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+              <li><a href="#features" className="text-gray-400 hover:text-white transition-colors">Возможности</a></li>
+              <li><a href="#products" className="text-gray-400 hover:text-white transition-colors">Продукты</a></li>
+              <li><a href="#testimonials" className="text-gray-400 hover:text-white transition-colors">Отзывы</a></li>
+              <li><a href="#contact" className="text-gray-400 hover:text-white transition-colors">Связаться</a></li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-lg font-semibold mb-4">Popular Products</h3>
+            <h3 className="text-lg font-semibold mb-4">Популярные Продукты</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Smart Hub Controller</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Smart Thermostat</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Smart Bulb Kit</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Security Camera</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Центральный Хаб</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Умный Термостат</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Набор Умных Ламп</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Камера Безопасности</a></li>
             </ul>
           </div>
         </div>
@@ -63,11 +63,11 @@ const Footer = () => {
       <div className="border-t border-white/10">
         <div className="section-container py-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Easy Home by <a href="https://tartilab.ru" target="_blank" rel="noopener noreferrer" className="hover:text-purple-light hover:underline">TartiLab</a>. All rights reserved.
+            © {new Date().getFullYear()} Easy Home by <a href="https://tartilab.ru" target="_blank" rel="noopener noreferrer" className="hover:text-purple-light hover:underline">TartiLab</a>. Все права защищены.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Terms of Service</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Политика Конфиденциальности</a>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm">Условия Использования</a>
           </div>
         </div>
       </div>

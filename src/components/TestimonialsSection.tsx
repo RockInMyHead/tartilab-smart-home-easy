@@ -11,24 +11,24 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const testimonials = [
   {
-    quote: "Easy Home has completely transformed how I interact with my living space. The system is intuitive and the devices work flawlessly together.",
-    author: "Elena Petrova",
-    position: "Interior Designer"
+    quote: "Easy Home полностью изменил мое взаимодействие с жилым пространством. Система интуитивно понятна, а устройства безупречно работают вместе.",
+    author: "Елена Петрова",
+    position: "Дизайнер интерьера"
   },
   {
-    quote: "I was skeptical about smart home tech, but Easy Home made it so simple to set up and use. Now I can't imagine living without it!",
-    author: "Ivan Sokolov",
-    position: "Software Engineer"
+    quote: "Я скептически относился к технологиям умного дома, но Easy Home сделал настройку и использование настолько простыми. Теперь я не могу представить жизнь без этого!",
+    author: "Иван Соколов",
+    position: "Программист"
   },
   {
-    quote: "The energy savings alone paid for my Easy Home system in less than a year. The climate control feature is incredibly efficient.",
-    author: "Marina Ivanova",
-    position: "Financial Analyst"
+    quote: "Экономия энергии окупила мою систему Easy Home менее чем за год. Функция климат-контроля невероятно эффективна.",
+    author: "Марина Иванова",
+    position: "Финансовый аналитик"
   },
   {
-    quote: "As someone who travels often, the security features give me peace of mind knowing I can check on my home from anywhere.",
-    author: "Dmitry Volkov",
-    position: "Business Consultant"
+    quote: "Как человеку, который часто путешествует, функции безопасности дают мне душевное спокойствие, зная, что я могу проверить свой дом из любой точки мира.",
+    author: "Дмитрий Волков",
+    position: "Бизнес-консультант"
   }
 ];
 
@@ -37,9 +37,9 @@ const TestimonialsSection = () => {
     <section id="testimonials" className="py-20 bg-ehome-bg">
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our Customers Say</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Что Говорят Наши Клиенты</h2>
           <p className="text-ehome-muted text-lg max-w-2xl mx-auto">
-            Hear from people who have transformed their homes with our smart solutions.
+            Отзывы людей, которые преобразили свои дома с помощью наших умных решений.
           </p>
         </div>
         

@@ -45,14 +45,14 @@ const Navbar = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-ehome-text hover:text-purple transition-colors">Features</a>
-            <a href="#products" className="text-ehome-text hover:text-purple transition-colors">Products</a>
-            <a href="#testimonials" className="text-ehome-text hover:text-purple transition-colors">Reviews</a>
-            <a href="#contact" className="text-ehome-text hover:text-purple transition-colors">Contact Us</a>
+            <a href="#features" className="text-ehome-text hover:text-purple transition-colors">Возможности</a>
+            <a href="#products" className="text-ehome-text hover:text-purple transition-colors">Продукты</a>
+            <a href="#testimonials" className="text-ehome-text hover:text-purple transition-colors">Отзывы</a>
+            <a href="#contact" className="text-ehome-text hover:text-purple transition-colors">Связаться</a>
           </div>
           
           <div className="hidden md:block">
-            <Button className="btn-primary">Get Started</Button>
+            <Button className="btn-primary">Начать Сейчас</Button>
           </div>
           
           <div className="md:hidden">
@@ -74,11 +74,11 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div className={`md:hidden ${mobileMenuOpen ? 'block' : 'hidden'} bg-white/95 backdrop-blur-md`}>
         <div className="px-4 py-3 space-y-4">
-          <a href="#features" className="block text-ehome-text hover:text-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>Features</a>
-          <a href="#products" className="block text-ehome-text hover:text-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>Products</a>
-          <a href="#testimonials" className="block text-ehome-text hover:text-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>Reviews</a>
-          <a href="#contact" className="block text-ehome-text hover:text-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>Contact Us</a>
-          <Button className="btn-primary w-full">Get Started</Button>
+          <a href="#features" className="block text-ehome-text hover:text-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>Возможности</a>
+          <a href="#products" className="block text-ehome-text hover:text-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>Продукты</a>
+          <a href="#testimonials" className="block text-ehome-text hover:text-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>Отзывы</a>
+          <a href="#contact" className="block text-ehome-text hover:text-purple transition-colors" onClick={() => setMobileMenuOpen(false)}>Связаться</a>
+          <Button className="btn-primary w-full">Начать Сейчас</Button>
         </div>
       </div>
     </nav>
