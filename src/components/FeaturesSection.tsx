@@ -11,7 +11,7 @@ const features = [
   {
     icon: <Thermometer className="h-8 w-8 text-purple" />,
     title: 'Climate Control',
-    description: 'Optimize your home's temperature automatically based on your preferences and habits to enhance comfort and efficiency.'
+    description: "Optimize your home's temperature automatically based on your preferences and habits to enhance comfort and efficiency."
   },
   {
     icon: <Lightbulb className="h-8 w-8 text-purple" />,
